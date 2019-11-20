@@ -23,7 +23,7 @@ function changebg(e){
         let index = Math.floor(Math.random()*v.length);
         this.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ','+ index + ')';
     }else{
-        this.style.backgroundColor = "white";
+        this.style.backgroundColor = "bisque";
     }
     
 }
